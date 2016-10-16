@@ -40,8 +40,8 @@ $ th train.lua
 ```
  Run `th train.lua -h` to see additional command line options that may be specified.
  
- If you want to train hierarchy MV-RNN models for all classes, run:
-   ./script/train_hierarchy_mvrnn.sh
+ If you want to train hierarchy MV-RNN models for every node of all classes, run:
+   ./scripts/train_hierarchy_mvrnn.sh
  
 ###Evaluation
 We have trained all models(MV-RNN models) for every node of class chair(subclass1), you can see the evaluation results following opeartions below.
@@ -58,17 +58,17 @@ the results are saved in the folder `retrive_res`.
 
 ###Example output by retrive_demo.lua
 <br>
-**ten views comparision bettwen input and retrive data**
+**1. Example of ten views comparision bettwen input and retrive data**
 <br>
-first row for input data, second row for retrive data
-<img src="images/compare1.png" width="100%">  
-<img src="images/compare2.png" width="100%">
+     first row for input data, second row for retrive data
+ (1) <img src="images/compare1.png" width="100%">  
+ (2) <img src="images/compare2.png" width="100%">
 
 <br>
-**example of view sequence**
+**2. Example of view sequence**
 <br>
-<img src="images/view_seqs1.png" width="60%"> 
-<img src="images/view_seqs2.png" width="60%">
+ (1)<img src="images/view_seqs1.png" width="60%"> 
+ (2)<img src="images/view_seqs2.png" width="60%">
 
 ##Acknowledgement
 Torch implementation in this repository is based on the code from Nicholas Leonard's recurrent model of visual attention, which is a clean and nice GitHub repo using Torch.

@@ -1,0 +1,26 @@
+site_name: dp
+theme : simplex
+repo_url : https://github.com/nicholas-leonard/dp
+use_directory_urls : false
+markdown_extensions: [extra]
+docs_dir : doc
+pages:
+- Home: index.md
+- Tutorial:
+  - Neural Network: neuralnetworktutorial.md
+  - Facial Keypoints: facialkeypointstutorial.md
+  - Language Model: languagemodeltutorial.md
+  - Data Source: datatutorial.md 
+- Data Library:
+  - View: view.md
+  - Data: data.md
+  - Preprocess: preprocess.md
+- Experiment Library:
+  - Experiment: experiment.md
+  - Propagator: propagator.md
+- Extensions:
+  - Feedback: feedback.md
+  - Observer: observer.md
+  - Mediator: mediator.md
+
+

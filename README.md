@@ -47,11 +47,18 @@ $ th train.lua
 We have trained all models(MV-RNN models) for every node of class chair(subclass1), you can see the evaluation results following opeartions below.
 To evulate the MV-RNN model for the root node:
  ```
-$ th eval.lua --xpPath /path/to/model 
+$ th eval_demo.lua 
 ```
-you can see retrive examples by running `th retrive_demo.lua`, the results are saved in the folder `retrive_res` 
+You can see retrive examples by running:
+```
+$ th retrive_demo.lua` 
+```
+the results are saved in the folder `retrive_res`.
+<br>
 **Example output by retrive_demo.lua**
+<br>
 **ten views comparision bettwen input and retrive data**
+<br>
 first row for input data, second row for retrive data
 <img src="images/compare1.png" width="100%">  
 <img src="images/compare2.png" width="100%">

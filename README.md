@@ -57,8 +57,8 @@ first row for input data, second row for retrive data
 <img src="images/compare2.png" width="100%">
 
 **example of view sequence**
-<img src="images/view_seqs1.png" width="100%"> 
-<img src="images/view_seqs2.png" width="100%">
+<img src="images/view_seqs1.png" width="60%"> 
+<img src="images/view_seqs2.png" width="60%">
 
 ##Acknowledgement
 Torch implementation in this repository is based on the code from Nicholas Leonard's recurrent model of visual attention, which is a clean and nice GitHub repo using Torch.

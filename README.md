@@ -55,7 +55,8 @@ $ th retrive_demo.lua`
 ```
 the results are saved in the folder `retrive_res`.
 <br>
-**Example output by retrive_demo.lua**
+
+###Example output by retrive_demo.lua
 <br>
 **ten views comparision bettwen input and retrive data**
 <br>
@@ -63,6 +64,7 @@ first row for input data, second row for retrive data
 <img src="images/compare1.png" width="100%">  
 <img src="images/compare2.png" width="100%">
 
+<br>
 **example of view sequence**
 <br>
 <img src="images/view_seqs1.png" width="60%"> 

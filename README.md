@@ -53,10 +53,12 @@ you can see retrive examples by running `th retrive_demo.lua`, the results are s
 **Example output by retrive_demo.lua**
 **ten views comparision bettwen input and retrive data**
 first row for input data, second row for retrive data
-<img src="images/compare1.png" width="40%">  <img src="images/compare2.png" width="40%">
+<img src="images/compare1.png" width="40%">  
+<img src="images/compare2.png" width="40%">
 
 **example of view sequence**
-<img src="images/view_seqs1.png" width="40%">  <img src="images/view_seqs2.png" width="40%">
+<img src="images/view_seqs1.png" width="40%"> 
+<img src="images/view_seqs2.png" width="40%">
 
 ##Acknowledgement
 Torch implementation in this repository is based on the code from Nicholas Leonard's recurrent model of visual attention, which is a clean and nice GitHub repo using Torch.

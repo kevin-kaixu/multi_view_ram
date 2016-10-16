@@ -60,7 +60,7 @@ the results are saved in the folder `retrive_res`.
 <br>
 **1. Example of ten views comparision bettwen input and retrive data**
 <br>
- <p> first row for input data, second row for retrive data <p/>
+ <p>   first row for input data, second row for retrive data <p/>
  (1) <br><img src="images/compare1.png" width="80%"><br>  
  (2) <br><img src="images/compare2.png" width="80%">
 

@@ -60,15 +60,15 @@ the results are saved in the folder `retrive_res`.
 <br>
 **1. Example of ten views comparision bettwen input and retrive data**
 <br>
-     first row for input data, second row for retrive data
- (1) <img src="images/compare1.png" width="100%">  
- (2) <img src="images/compare2.png" width="100%">
+ &ensp first row for input data, second row for retrive data
+ (1) <br><img src="images/compare1.png" width="80%">  
+ (2) <br><img src="images/compare2.png" width="80%">
 
 <br>
 **2. Example of view sequence**
 <br>
- (1)<img src="images/view_seqs1.png" width="60%"> 
- (2)<img src="images/view_seqs2.png" width="60%">
+ (1)<br><img src="images/view_seqs1.png" width="60%"> 
+ (2)<br><img src="images/view_seqs2.png" width="60%">
 
 ##Acknowledgement
 Torch implementation in this repository is based on the code from Nicholas Leonard's recurrent model of visual attention, which is a clean and nice GitHub repo using Torch.

@@ -57,6 +57,7 @@ first row for input data, second row for retrive data
 <img src="images/compare2.png" width="100%">
 
 **example of view sequence**
+<br>
 <img src="images/view_seqs1.png" width="60%"> 
 <img src="images/view_seqs2.png" width="60%">
 

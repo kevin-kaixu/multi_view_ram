@@ -51,7 +51,7 @@ $ th eval_demo.lua
 ```
 You can see retrive examples by running:
 ```
-$ th retrive_demo.lua` 
+$ th retrive_demo.lua
 ```
 the results are saved in the folder `retrive_res`.
 <br>

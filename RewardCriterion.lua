@@ -64,7 +64,7 @@ function RewardCriterion:updateOutput(input, target)
            local deltEntropy=tmp_entropy[k-1]-tmp_entropy[k]
            self.reward[i]=self.reward[i]+deltEntropy*self.entropyParam-self.mvCostParam*self:computeMvCost(locations[k-1][i],locations[k][i])
         end
-        if location[k][i]:clone():abs():max()>1 then
+        if locations[k][i]:clone():abs():max()>1 then
             flag=true
         end
       end

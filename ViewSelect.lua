@@ -32,7 +32,7 @@ function ViewSelect:updateOutput(inputTable)
    assert(torch.type(inputTable) == 'table')
    assert(#inputTable >= 2)
    local input, location = unpack(inputTable)
-   self.evaluation = true
+   --self.evaluation = true
    if self.evaluation == false then
      local n_sample = input:size(1)
      local objIds={}

@@ -18,7 +18,7 @@ end
 
 function RewardCriterion:getViewId(location)
   local viewId,value
-  value,results=(self.viewsLoc-location:resize(1,2):repeatTensor(self.viewsLoc:size(1),1)):norm(2,2):min(1)
+  value,results=(self.viewsLoc-location:clone():resize(1,2):repeatTensor(self.viewsLoc:size(1),1)):norm(2,2):min(1)
   viewId=results[1][1]
   return viewId
 end

@@ -102,8 +102,8 @@ end
 matio.save(opt.eval_dir .. '/eval_sequences.mat',sequences)
 matio.save(opt.eval_dir .. '/eval_sequences_locations.mat',sequences_locations)
 --
-input = inputs:narrow(1,1,30)
-target= targets:narrow(1,1,30)
+input = inputs:narrow(1,30,30)
+target= targets:narrow(1,30,30)
 confusion = optim.ConfusionMatrix(classes)
 test_inputs = ds:get('test','inputs')
 test_targets = ds:get('test','targets', 'b')

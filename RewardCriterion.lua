@@ -119,9 +119,6 @@ function RewardCriterion:updateGradInput(input, target)
 end
 
 function RewardCriterion:type(type)
-   self._maxVal = nil
-   self._maxIdx = nil
-   self._target = nil
    local module = self.module
    self.module = nil
    local ret = parent.type(self, type)

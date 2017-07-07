@@ -28,11 +28,11 @@ If you find our work useful in your research, please consider citing:
  ```
  3. Install matio:  
  ```
-    	 $ sudo apt-get install libmatio2 
+ $ sudo apt-get install libmatio2 
  ```
  4. Install other torch packages (nn, dpnn, rnn, image, etc.): 
  ```
- 	 $ ./scripts/dependencies_install.sh
+ $ ./scripts/dependencies_install.sh
  ```
 
 ## Usage 

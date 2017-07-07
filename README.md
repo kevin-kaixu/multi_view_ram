@@ -26,14 +26,9 @@ If you find our work useful in your research, please consider citing:
 	 $ luarocks install cutorch	
 	 $ luarocks install cunn
  ```
- 3. Install matio:  
- ```
- $ sudo apt-get install libmatio2 
- ```
- 4. Install other torch packages (nn, dpnn, rnn, image, etc.): 
- ```
- $ ./scripts/dependencies_install.sh
- ```
+ 3. Install matio:  ``` $ sudo apt-get install libmatio2 ```
+ 
+ 4. Install other torch packages (nn, dpnn, rnn, image, etc.): ``` $ ./scripts/dependencies_install.sh ```
 
 ## Usage 
 ### Data 

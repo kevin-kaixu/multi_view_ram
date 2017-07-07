@@ -27,9 +27,9 @@ If you find our work useful in your research, please consider citing:
 	 $ luarocks install cunn
  ```
  
- 3. Install matio:  `$ sudo apt-get install libmatio2`
+ 3. Install matio:  ``` $ sudo apt-get install libmatio2 ```
 
- 4. Install other torch packages (nn, dpnn, rnn, image, etc.): `$ ./scripts/dependencies_install.sh`
+ 4. Install other torch packages (nn, dpnn, rnn, image, etc.): ```$ ./scripts/dependencies_install.sh```
 
 ## Usage 
 ### Data 
@@ -60,14 +60,14 @@ the results are saved in the folder `retrive_res`.
 
 ### Example output by retrive_demo.lua
 <br>
-** 1. Example of ten views comparision bettwen input and retrive data **
+#### 1. Example of ten views comparision bettwen input and retrive data 
 <br>
  <p>   first row for input data, second row for retrive data <p/>
  (1) <br><img src="images/compare1.png" width="80%"><br>  
  (2) <br><img src="images/compare2.png" width="80%">
 
 <br>
-** 2. Example of view sequence **
+#### 2. Example of view sequence
 <br>
  (1)<br><img src="images/view_seqs1.png" width="60%"><br> 
  (2)<br><img src="images/view_seqs2.png" width="60%">

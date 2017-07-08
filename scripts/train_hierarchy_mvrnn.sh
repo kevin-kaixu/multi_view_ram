@@ -8,7 +8,7 @@ function train_mvrnn_model(){
 	cp $main_dir/RewardCriterion.lua .
 	cp $main_dir/RecurrentAttention_ex.lua .
 	cp $main_dir/scripts/train_hierachy_mvrnn.lua .
-	cp $main_dir/viewsLoc.lua .
+	cp $main_dir/util/viewsLoc.lua .
 	cp $main_dir/model.lua .
 	output=`th train_hierachy_mvrnn.lua --dataset $current_node`
 	rm ViewSelect.lua

@@ -32,7 +32,7 @@ If you find our work useful in your research, please consider citing:
 
 ## Usage 
 ### Data 
-Here we give a small dataset to show our demo. the dataset contains five classes (chair, display, flowerpot, guita, table), each of which consists of 300 models. Each 3D model is rendered into a basic set of 2.5D depth images from 21 sampled views, serving as multi-veiw training data. We split train and test set according the ratio 5:1 for each class. The hierachy tree have been build, and was placed in the data_hierarchy_tree. In each node, there exists a folder named mvcnn, which contains a mvcnn net. A folder named cur_model, which contains a MV-RNN model for current node. A matlab format file .mat is used for training data. And each subclass folder is sub-node.
+Here we give a small dataset to show our demo. the dataset contains five classes (chair, display, flowerpot, guita, table), each of which consists of 300 models. Each 3D model is rendered into a basic set of 2.5D depth images from 21 sampled views, serving as multi-veiw training data. We split train and test set according the ratio 5:1 for each class. The hierachy tree has been build and placed in the folder data_hierarchy_tree. In each node folder, there exists a folder named mvcnn that contains a mvcnn net, and a folder named cur_model that contains a MV-RNN model for current node. A matlab format file .mat is used as training data for current node, and each subclass folder is sub-node.
 
 ### Train 
 To train a MV-RNN model to classify object for current node:
@@ -60,7 +60,7 @@ the results are saved in the folder `retrive_res`.
 
 ### Example output by retrive_demo.lua
 <br>
- 1. Example of ten views comparision bettwen input and retrive data 
+ 1. Example of ten views comparision betwwen input and retrive data 
 <br>
  <p>   first row for input data, second row for retrive data <p/>
  (1) <br><img src="images/compare1.png" width="80%"><br>  

@@ -1,4 +1,5 @@
-mvcnn=torch.load('data_hierarchy_tree/mvcnn/mvcnn.net'):float()
+mvcnn_net_path=opt.mvcnn_dir .. '/mvcnn.net'
+mvcnn=torch.load(mvcnn_net_path):float()
 mvcnn_cnn1=mvcnn.modules[1]
 AllData=mvcnn_cnn1:forward(AllData) -- little trick for speed training
 --torch.save('Alldata',AllData)

@@ -52,6 +52,7 @@ cmd:option('--rewardScale',1, "scale of positive reward (negative is 0)")
 cmd:option('--minLR', 0.000001, 'minimum learning rate')
 cmd:option('--saturateEpoch', 800, 'epoch at which linear decayed LR will reach minLR')
 cmd:option('--save_dir', 'cur_model', 'model save path')
+cmd:option('--mvcnn_dir','data_hierarchy_tree/mvcnn','mvcnn_net save path')
 cmd:text()
 opt = cmd:parse(arg or {})
 if not opt.silent then

@@ -35,7 +35,7 @@ If you find our work useful in your research, please consider citing:
 Here we give a small dataset to show our demo. the dataset contains five classes (chair, display, flowerpot, guita, table), each of which consists of 300 models. Each 3D model is rendered into a basic set of 2.5D depth images from 21 sampled views, serving as multi-veiw training data. We split train and test set according the ratio 5:1 for each class. The hierachy tree has been build and placed in the folder data_hierarchy_tree. In each node folder, there exists a folder named mvcnn that contains a mvcnn net, and a folder named cur_model that contains a MV-RNN model for current node. A matlab format file .mat is used as training data for current node, and each subclass folder is sub-node.
 
 ### Train 
-To train a MV-RNN model to classify object for current node:
+To train a MV-RNN model to classify object for root node:
 ```
 $ th train.lua 
 ```

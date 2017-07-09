@@ -54,7 +54,8 @@ You can see retrive examples by running:
 ```
 $ th retrive_demo.lua
 ```
-the results are saved in the folder `retrive_res`.(note: if encounter an error due to ViewSelect.lua, you can fix it by uncommenting the line 35 in ViewSelect.lua)
+the results are saved in the folder `retrive_res`.
+(note: if encounter an error due to ViewSelect.lua, you can fix it by uncommenting the line 35 in ViewSelect.lua)
 <br>
 
 ### Example output by retrive_demo.lua

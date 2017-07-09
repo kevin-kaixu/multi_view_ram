@@ -28,5 +28,5 @@ function train_mvrnn_model(){
 	fi
     done
 }
-cd ../data_hierarchy_tree
+cd data_hierarchy_tree
 train_mvrnn_model
